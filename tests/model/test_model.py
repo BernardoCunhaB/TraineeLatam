@@ -5,19 +5,6 @@ from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 from challenge.model import DelayModel
 
-
-def super():
-    pass
-
-
-def isinstance(features, DataFrame):
-    pass
-
-
-def len(predicted_targets):
-    pass
-
-
 class TestModel(unittest.TestCase):
 
     FEATURES_COLS = [
